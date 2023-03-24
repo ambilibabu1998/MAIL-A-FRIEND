@@ -6,15 +6,15 @@ let transporter = nodemailer.createTransport({
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-        user: 'ambilibabu1998@gmail.com', // your email address
-        pass: 'itvzccjisdsjwuta' // your email password
+        user: 'ambili.babu.sheeba@gmail.com', // your email address
+        pass: 'ldbkgpchniwmmuck' // your email password
     }
 });
 
 // setup email data with unicode symbols
 let mailOptions = {
-    from: '"AMBILI BABU" <ambilibabu1998@gmail.com>', // sender address
-    to: 'ambili.babu.sheeba@gmail.com', // list of receivers
+    from: '"AMBILI BABU" <ambili.babu.sheeba@gmail.com>', // sender address
+    to: 'ambilibabu1998@gmail.com', // list of receivers
     subject: 'Hello ✔', // Subject line
     text: 'Hello Ammu? Hope you are doing well', // plain text body
     html: '<b>Hello Ammu?Hope you are doing well</b>' // html body
